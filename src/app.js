@@ -67,7 +67,7 @@ window.onload = function () {
     balloonPopper.style.pointerEvents = 'none';
   }
 
-  // Set the timer: 30000 milliseconds = 30 seconds
+  // Set the timer: 10000 milliseconds = 10 seconds
   const gameDurationMs = 10000;
   setTimeout(endGame, gameDurationMs);
 

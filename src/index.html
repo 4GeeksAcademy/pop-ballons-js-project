@@ -1,30 +1,32 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" href="./assets/img/4geeks.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
 
-    <!-- Fontawesome is our recomended library for icons -->
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body>
-    <!-- Write your HTML code here, you can delete everything withing the body tags -->
-    <div class="container-fluid row text-center" id="balloon-pop" class="">
-      
-      <!-- <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
-      </div> -->
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="./assets/img/4geeks.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hello Rigo with Vanilla.js</title>
+
+  <!-- Fontawesome is our recomended library for icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Henny+Penny&family=Honk:MORF@15&family=Lobster+Two:ital,wght@1,700&family=Momo+Signature&family=Nabla&family=Playwrite+US+Trad+Guides&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Write your HTML code here, you can delete everything withing the body tags -->
+  <div class="container-fluid row text-center bg-dark" class="honk" id="balloon-pop">
+    <div class="header bg-primary p-4 mb-2" ><h1 class="title" class="Honk">10 sec. Balloon popper</h1></div>
+    <div>
+      <button type="button" class="btn btn-danger p-4" onClick="window.location.reload();"
+        class=" p-4 "><p>Do it again!</p></button>
     </div>
+  </div>
 
-    <!-- Do not delete this script tag, this is what connects your HTML with the Javascript code -->
-    <script type="module" src="/app.js"></script>
-  </body>
+  <!-- Do not delete this script tag, this is what connects your HTML with the Javascript code -->
+  <script type="module" src="/app.js"></script>
+</body>
+
 </html>
